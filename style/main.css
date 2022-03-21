@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 
-/*elementos base*/
+/*elementos*/
 body{
    background: var(--preta);
    font-family: 'Arial', Times, serif;
@@ -43,12 +43,12 @@ header nav a:hover{
     color:#fff;
 }
 
-/*filme principal*/
+/*principal*/
 .filme-principal{
     font-size:16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/capa-house.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img.png/Atlanta_capa.jpg');
 
-    height:400px;
+    height:700px;
     background-size:cover;
  
 
@@ -99,7 +99,7 @@ header nav a:hover{
 }
 
 .filme-principal .container{
-    width: 70%;
+    width: 90%;
 }
 
 .box-filme{
@@ -111,7 +111,7 @@ header nav a:hover{
 
 
 .carrosel-filmes{
-    margin-top:5px;
+    margin-top:4px;
 }
 
 
